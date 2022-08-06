@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.introduction {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(../img/Hexagon-dotted-connect-line-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    margin-bottom: 5px;
+    font-size: 3rem;
+    font-family: 'Cormorant SC', serif;
+}
+
+.intro2 {
+    font-weight: 300;
+    background-color: #001219;
+    color: #E9EDC9;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    margin-bottom: 10px;
+}
+
+.aspiring {
+    color:#f3c247;
+    font-weight: 500;
+}
+
+.reachOut {
+    font-size: .8rem;
+    background-color: #001219;
+    color: #E9EDC9;
+    padding: .6em;
+    font-weight: 500;
+    border-radius: .7rem;
+}
+.reachOut:active{
+    background-color: #ffb703;
+    color: black;
+}
+.reachOut:visited {
+    text-decoration: none;
+}
+.reachOut:hover {
+    opacity: 80%;
+}
+
+.imageAbout {
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #101011;
+}
+
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.about {
+    margin-top: 20px;
+    color: #fdfdfd;
+}
+
+.aboutMe { 
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.highlight {
+    color: #f3c247;
+    font-weight: 500;
+}
+
+.aboutPara {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.career-info {
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+}
+
+.career {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.work {
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.year {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #323031;
+    background-color: #ffc857;
+}
+
+.jobTitle , .company {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
+
+.educ {
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+    background-color: #323031;
+    color: #E9EDC9;
+    height: auto;
+}
+
+.education {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.shools {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.course {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #f38375;
+}
+
+.school {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #f3c247;
+}
+
+.story { 
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    display: flex;
+    padding: 40px 20px 40px 20px;
+    width: 100%;
+    height: 500px;
+}
+
+.portfolio-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(177, 177, 177);
+    color: rgba(0, 0, 0, 0.9);
+    padding: 20px 20px 40px 20px;
+    height: auto;
+    width: 100%;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-direction: row;
+}
+
+.connect {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-name {
+    color: #814c02;
+    font-size: 1.5rem;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.contactInfo {
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        font-size: 5rem;
+    } 
+    .intro2 {
+        font-size: 1.2rem;
+    }
+    .reachOut {
+        font-size: .9rem;
+    }
+
+    .imageAbout {
+        flex-direction: row;
+    }
+    .image1 {
+        width: 50%;
+    }
+    .about {
+        width: 50%;
+    }
+    .career-info , .imageAbout , .educ, .portfolio , .contact {
+        padding: 40px 50px 40px 50px;
+        
+    }
+    footer {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro {
+        font-size: 7rem;
+    } 
+    .intro2 {
+        font-size: 1.5rem;
+    }
+
+    .imageAbout {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image1 {
+        width: 40%;
+    }
+    .about {
+        width: 60%;
+    }
+    .career-info , .imageAbout , .educ, .portfolio , .contact {
+        padding: 40px 70px 40px 70px;
+        
+    }
+}
