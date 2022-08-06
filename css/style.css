@@ -32,7 +32,7 @@ a {
 .intro2 {
     font-weight: 300;
     background-color: #001219;
-    color: #E9EDC9;
+    color: #ffffff;
     font-size: .9rem;
     letter-spacing: .1rem;
     margin-bottom: 10px;
@@ -46,7 +46,7 @@ a {
 .reachOut {
     font-size: .8rem;
     background-color: #001219;
-    color: #E9EDC9;
+    color: #ffffff;
     padding: .6em;
     font-weight: 500;
     border-radius: .7rem;
@@ -140,7 +140,7 @@ a {
     padding: 40px 20px 40px 20px;
     width: 100%;
     background-color: #323031;
-    color: #E9EDC9;
+    color: #ffffff;
     height: auto;
 }
 
