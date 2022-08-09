@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+a:visited{
+    color: #000000;
+    background-color: #ffb703;
+}
+
 .introduction {
     display: flex;
     height: 650px;
@@ -178,12 +183,35 @@ a {
     padding: 40px 20px 40px 20px;
     width: 100%;
     height: 500px;
+    
 }
 
 .portfolio-title {
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.portfolio-head {
+    display: block;
+}
+
+.desc {
+    font-size: 1rem;
+    background-color: #ffb703;
+    text-align: center;
+}
+
+.project1 {
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width: 50%;
 }
 
 footer {
@@ -217,7 +245,7 @@ footer {
     font-size: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
     .intro {
         font-size: 5rem;
     } 
@@ -231,11 +259,13 @@ footer {
     .imageAbout {
         flex-direction: row;
     }
-    .image1 {
-        width: 50%;
-    }
+    
     .about {
         width: 50%;
+    }
+
+    .project1 {
+        width: 420px;
     }
     .career-info , .imageAbout , .educ, .portfolio , .contact {
         padding: 40px 50px 40px 50px;
